@@ -4,3 +4,54 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+
+body {
+    background-color:mediumpurple;
+}
+
+form {
+    border-radius: 10px;
+    margin: 5%;
+    width: 90%;
+    max-width: 500px;
+    padding: 5%;
+    background-color: white;
+}
+
+form h2 {
+    font-size: 30px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 20px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+
+form button {
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: mediumpurple;
+    color: white;
+}
+
+.display img {
+    cursor: pointer;
+}
