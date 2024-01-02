@@ -22,3 +22,8 @@ function createPassword(event) {
     passwordGenerator.value = password;
 
 }
+
+function copyPassword() {
+    passwordGenerator.select();
+    navigator.clipboard.writeText(passwordGenerator.value);
+}
